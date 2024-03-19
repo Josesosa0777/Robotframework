@@ -1,0 +1,17 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env/
+
+# Log files
+*.log
+
+# Dependency directories
+lib/
+lib64/
