@@ -7,12 +7,11 @@ Library     ../python_library/main.py
 This is a test case
     My custom Keywords
     # Open Browser  http:/google.com  edge
-    Open Browser         http://google.com  chrome  alias=MyBrowser
+    Open Browser         http://google.com  edge  alias=MyBrowser
     Sleep                1s
     ${content}=          main.Open File
     Log                  File content: ${content}
-    Go To                https://www.hero-wars.com/
-    Set Window Size      1300    1080
+    # Set Window Size      1300    1080
     Sleep                1s
 
 
